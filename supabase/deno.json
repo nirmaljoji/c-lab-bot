@@ -1,0 +1,18 @@
+{
+  "imports": {
+    "axios": "https://esm.sh/v135/*axios@1.7.2",
+    "axios/": "https://esm.sh/v135/*axios@1.7.2/"
+  },
+  "tasks": {
+    "esm:add": "deno run -A https://esm.sh/v135 add",
+    "esm:update": "deno run -A https://esm.sh/v135 update",
+    "esm:remove": "deno run -A https://esm.sh/v135 remove"
+  },
+  "scopes": {
+    "https://esm.sh/v135/": {
+      "follow-redirects": "https://esm.sh/v135/follow-redirects@1.15.6",
+      "form-data": "https://esm.sh/v135/form-data@4.0.0",
+      "proxy-from-env": "https://esm.sh/v135/proxy-from-env@1.1.0"
+    }
+  }
+}
