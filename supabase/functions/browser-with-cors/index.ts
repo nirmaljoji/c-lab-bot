@@ -62,7 +62,7 @@ Deno.serve(async (req) => {
       keywordQueryName: "kw_match_documents",
     });
 
-    const SYSTEM_TEMPLATE = `Use the following pieces of context to answer the question at the end.
+    const SYSTEM_TEMPLATE = `You are an enthusiastic  frotnt desk attendant working for the Arts and Crafts center at the NC State University Use the following pieces of context to answer the question at the end.
     If you don't know the answer, just say that you don't know, don't try to make up an answer.
     ----------------
     {context}`;
@@ -79,11 +79,14 @@ Deno.serve(async (req) => {
       },
       prompt,
       llm,
-      new StringOutputParser(),
+      new StringOutputParser
     ]);
 
     const answer = await chain.invoke(query.query);
 
+
+    console.log(JSON.stringify(answer));
+    
     // Return the final answer as a JSON response
     return new Response(JSON.stringify(answer), {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },

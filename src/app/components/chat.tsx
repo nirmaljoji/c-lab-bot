@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button"
 import { useRef, useEffect, useState, ChangeEvent, FormEvent } from 'react'
 import { createClient } from '@supabase/supabase-js'
 import { FunctionsHttpError } from '@supabase/supabase-js'
+import Markdown from 'react-markdown'
+
 
 
 interface Message {
@@ -45,9 +47,13 @@ export function Chat() {
     const userMessage: Message = { role: 'user', content: input }
     setMessages([...messages, userMessage])
 
-    const { data, error } = await supabase.functions.invoke( "check", {
+    const { data, error } = await supabase.functions.invoke( "browser-with-cors", {
       body: JSON.stringify(inputJson)
     })
+
+
+    console.log(data);
+
 
     if (error && error instanceof FunctionsHttpError) {
       const errorMessage = await error.context.json()
@@ -109,7 +115,7 @@ export function Chat() {
                   <div className="rounded-xl p-4 bg-background shadow-md flex w-3/4">
                     <p className="text-primary">
                       <span className="font-bold">Answer: </span>
-                      {m.content}
+                      <Markdown children={m.content} />
                     </p>
                   </div>
                 </li>

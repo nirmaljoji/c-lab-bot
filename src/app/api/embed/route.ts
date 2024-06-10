@@ -24,6 +24,8 @@ export async function POST(request: Request) {
   const loader = new WebPDFLoader(file);
   const docs = await loader.load();
 
+  console.log(docs);
+
 // //   const textSplitter = new RecursiveCharacterTextSplitter({
 // //     chunkSize: 1000,
 // //     chunkOverlap: 100,
@@ -44,8 +46,8 @@ export async function POST(request: Request) {
     );
 
     const textSplitter = new RecursiveCharacterTextSplitter({
-        chunkSize: 200,
-        chunkOverlap: 1,
+        chunkSize: 2000,
+        chunkOverlap: 500,
       });
 
     const splitDocs = await textSplitter.splitDocuments(docs);
