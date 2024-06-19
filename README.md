@@ -19,12 +19,6 @@
 <br>
 <br>
 
-[![GitHub license](https://img.shields.io/github/license/username/ncsu-arts-crafts-chatbot.svg)](https://github.com/nirmaljoji/c-lab-bot/blob/master/LICENSE)
-[![made-with-NextJs](https://img.shields.io/badge/Made%20with-NextJs-1f425f.svg)](https://nextjs.org/)
-[![made-with-Supabase](https://img.shields.io/badge/Made%20with-Supabase-1f425f.svg)](https://supabase.io/)
-![Build Status](https://github.com/username/ncsu-arts-crafts-chatbot/actions/workflows/ci.yml/badge.svg)
-![last commit](https://img.shields.io/github/last-commit/username/ncsu-arts-crafts-chatbot)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/username/ncsu-arts-crafts-chatbot)
 
 
 ## **🎨 NCSU Arts and Crafts Center Chatbot 🎨**
@@ -54,12 +48,20 @@ In today's fast-paced environment, having immediate access to accurate informati
 
 ## Screenshots
 
+- Application
+<img width='600' src="https://github.com/nirmaljoji/c-lab-bot/assets/40449660/3a160e61-adc4-418c-ab70-7ff235a8c789">
+
+- Supabase pg vectos
+<img width='600' src="https://github.com/nirmaljoji/c-lab-bot/assets/40449660/45963692-4072-41b4-8837-f73b8762274e">
+
+- Postman process PDFs endpoint
+<img width='600' src="https://github.com/nirmaljoji/c-lab-bot/assets/40449660/7df9921c-5c9b-42ca-b760-eb131c2d2a9d">
 
 
 ## Project TechStack
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" alt="nextjs" width="20" height="20"> Next.js </br>
-<img src="https://supabase.io/brand-assets/supabase-logo-wordmark--dark.svg" alt="supabase" width="20" height="20"/> Supabase </br>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" alt="nextjs" width="20" height="20">Next.js</br>
+<img src="https://cdn.jsdelivr.net/gh/supabase/supabase@main/web/static/supabase-logo-dark.png" alt="supabase" width="20" height="20"/> Supabase </br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="javascript" width="20" height="20"/> JavaScript </br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="python" width="20" height="20"/> Python </br>
 
@@ -85,7 +87,7 @@ Follow these steps to set up and run the chatbot on your local machine.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/username/ncsu-arts-crafts-chatbot.git
+   git clone https://github.com/nirmaljoji/c-lab-bot.git
    ```
 2. Run
    ```sh
