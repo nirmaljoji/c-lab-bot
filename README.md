@@ -26,30 +26,6 @@
 ![last commit](https://img.shields.io/github/last-commit/username/ncsu-arts-crafts-chatbot)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/username/ncsu-arts-crafts-chatbot)
 
-<a href="https://github.com/nirmaljoji/c-lab-bot/fork" target="blank">
-<img src="https://img.shields.io/github/forks/username/ncsu-arts-crafts-chatbot?style=flat-square" alt="forks"/>
-</a>
-<a href="https://github.com/nirmaljoji/c-lab-bot/stargazers" target="blank">
-<img src="https://img.shields.io/github/stars/username/ncsu-arts-crafts-chatbot?style=flat-square" alt="stars"/>
-</a>
-<a href="https://github.com/nirmaljoji/c-lab-bot/issues" target="blank">
-<img src="https://img.shields.io/github/issues/username/ncsu-arts-crafts-chatbot?style=flat-square" alt="issues"/>
-</a>
-<a href="https://github.com/nirmaljoji/c-lab-bot/issues" target="blank">
-<img src="https://img.shields.io/github/issues-closed/username/ncsu-arts-crafts-chatbot" alt="closed issues"/>
-</a>
-<a href="https://github.com/nirmaljoji/c-lab-bot/graphs/contributors" alt="Contributors">
-<img src="https://img.shields.io/github/contributors/username/ncsu-arts-crafts-chatbot" /></a>
-<a href="https://github.com/nirmaljoji/c-lab-bot/graphs/commit-activity" alt="commit activity">
-<img src="https://img.shields.io/github/commit-activity/w/username/ncsu-arts-crafts-chatbot" /></a> 
-
-<a href="https://github.com/nirmaljoji/c-lab-bot/discussions" alt="discussion">
-<img src="https://img.shields.io/github/discussions/username/ncsu-arts-crafts-chatbot" /></a> 
-
-<a href="https://img.shields.io/github/repo-size/username/ncsu-arts-crafts-chatbot" alt="repo size">
-<img src="https://img.shields.io/github/repo-size/username/ncsu-arts-crafts-chatbot" /></a>
-
-<img src="https://github.com/nirmaljoji/c-lab-bot/assets/screenshot.png" width='800'>
 
 ## **🎨 NCSU Arts and Crafts Center Chatbot 🎨**
  
